@@ -1,7 +1,10 @@
 #include<stdio.h>
 
-int main(void)<%
-    printf("%d",12);
-    return 0;
+int main(){
 
-%>
+    int a = 10;
+    int *ptr;
+    
+    printf("Address of p : %u \n", ptr);
+    return 0;
+}
